@@ -9,7 +9,6 @@ services:
     volumes:
       - ./config:/config
       - ./keystores:/web3signer/keystores
-      - ./passwords:/web3signer/passwords
     command:
       - --config-file=/config/config.yaml
       - --key-store-path=/web3signer/keystores
