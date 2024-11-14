@@ -1,0 +1,4 @@
+type: "file-keystore"
+keyType: "SECP256K1"
+keystoreFile: "UTC--2024-11-12T19-46-50.664272000Z--cb544d65739565dc9e3360c8b4090981ed36ed89.json"
+keystorePasswordFile: "UTC--2024-11-12T19-46-50.664272000Z--cb544d65739565dc9e3360c8b4090981ed36ed89.txt"

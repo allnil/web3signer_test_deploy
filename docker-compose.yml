@@ -1,0 +1,17 @@
+# docker-compose.yml
+version: "3.9"
+
+services:
+  web3signer:
+    image: consensys/web3signer:latest
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./config:/config
+      - ./keystores:/web3signer/keystores
+      - ./passwords:/web3signer/passwords
+    command:
+      - --config-file=/config/config.yaml
+      - --key-store-path=/web3signer/keystores
+      - eth1
+      - --chain-id=9496

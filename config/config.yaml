@@ -1,0 +1,4 @@
+# config/config.yml
+http-listen-host: "0.0.0.0"
+http-listen-port: 9000
+http-host-allowlist: "*"
