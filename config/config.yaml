@@ -2,3 +2,8 @@
 http-listen-host: "0.0.0.0"
 http-listen-port: 9000
 http-host-allowlist: "*"
+
+# TLS configuration
+tls-keystore-file: /config/web3signer_keystore.p12 
+tls-keystore-password-file: /config/password.txt 
+tls-known-clients-file: /config/knownClients.txt
